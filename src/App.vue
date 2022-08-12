@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-link :to="{path:'/product/sku'}">111111111111</router-link>
+    <router-link :to="{path:'/product/sku'}"></router-link>
     <router-view />
   </div>
 </template>

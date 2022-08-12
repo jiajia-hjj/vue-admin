@@ -3,6 +3,7 @@ import request from '@/utils/request'
 export function login(data) {
   return request({
     url: '/admin/acl/index/login',
+    // url: '/vue-admin-template/user/login',
     method: 'post',
     data
   })

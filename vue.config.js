@@ -18,7 +18,7 @@ const port = process.env.port || process.env.npm_config_port || 9528 // dev port
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
 module.exports = {
     /* 代码保存时进行eslint检测，默认default*/
-    lintOnSave: false,
+    // lintOnSave: false,
   /**
    * You will need to set publicPath if you plan to deploy your site under a sub path,
    * for example GitHub Pages. If you plan to deploy your site to https://foo.github.io/bar/,
@@ -44,7 +44,7 @@ module.exports = {
     //配置代理环境
     proxy: {
       '/dev-api': {
-        target: 'http://39.98.123.211/',
+        target: 'http://39.98.123.211:8170/',
         pathRewrite: { '^/dev-api': '' },
       },
     },
